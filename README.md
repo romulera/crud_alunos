@@ -5,12 +5,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Servidor
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
 Run Json Server and watch db.json file 
 
 ## Geral
 
-Por se tratar de uma avaliação de front end com angular e angular material foram priorizados o desenvolvimento destes componentes da aplicação.
-A solução do banco de dados MySQL foi substituída pela solução de Json-Serve.
+Por se tratar de uma avaliação de front end com angular e angular material foram priorizados os desenvolvimentos dos componentes relacionados ao frontend da aplicação.
+A solução do banco de dados MySQL foi substituída pela solução Json-Serve.
 
 1)	Criação projeto com angular
 2)	Criação dos componentes;Add, Edit, List, Login, Register
