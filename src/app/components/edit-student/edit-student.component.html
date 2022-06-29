@@ -1,0 +1,25 @@
+<h1>Atualizar dados do Aluno</h1>
+  
+<form class="example-form" [formGroup]="editStudent" (ngSubmit)="updateData()">
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="Ex. fulano@gmail.com" formControlName="email">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Nome</mat-label>
+        <input matInput placeholder="Ex. Alexandre" formControlName="nome" >
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Sobrenome</mat-label>
+        <input matInput placeholder="Ex. Silva" formControlName="sobrenome" >
+        </mat-form-field>
+    
+    
+    <button mat-raised-button color="primary" type="submit">Atualizar Cadastro</button>   
+</form>
+      
+      
+      
+      

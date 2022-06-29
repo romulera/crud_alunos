@@ -1,0 +1,17 @@
+<h1>Faça seu cadastro</h1>
+<h3>Faça seu cadastro para continuar</h3>
+
+<form class="example-form" [formGroup]="registrationForm" (ngSubmit)="register()">
+  <div class="form-group">
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="Email" type="email" formControlName="email">
+    </mat-form-field>
+    
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Senha</mat-label>
+        <input matInput formControlName="password" type="password">
+      </mat-form-field>
+  </div>
+  <button mat-raised-button type="submit"  color="primary" [disabled]="!registrationForm.valid">Cadastrar</button>
+</form>
