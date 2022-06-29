@@ -1,0 +1,53 @@
+{
+  "Alunos": [
+    {
+      "id": 1,
+      "nome": "Aluno 1",
+      "sobrenome": "Silva",
+      "email": "email@aluno1.com"
+    },
+    {
+      "id": 2,
+      "nome": "Aluno 2",
+      "sobrenome": "Rodrigues",
+      "email": "email@aluno2.com"
+    },
+    {
+      "email": "segunda@gmail.com",
+      "nome": "AlunoSegunda",
+      "sobrenome": "Feira",
+      "id": 5
+    },
+    {
+      "email": "segunda@feira.com",
+      "nome": "AlunoSegundaEditado",
+      "sobrenome": "Feira Reeditado",
+      "id": 6
+    },
+    {
+      "email": "romulo@lera.com",
+      "nome": "Romulo",
+      "sobrenome": "Lera ",
+      "id": 7
+    },
+    {
+      "email": "lera@brabo.com",
+      "nome": "Romuleditado",
+      "sobrenome": "Lira Editado",
+      "id": 8
+    },
+    {
+      "email": "Joao@email.com",
+      "nome": "Joao ",
+      "sobrenome": "Pé de feijao",
+      "id": 9
+    }
+  ],
+  "singupUsers": [
+    {
+      "email": "admin",
+      "password": "1234"
+    }
+  ]
+
+}
